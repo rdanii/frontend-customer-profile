@@ -1,5 +1,6 @@
 const API = {
-  baseURL: 'http://localhost:5002',
+  // baseURL: 'http://localhost:5002',
+  baseURL: 'http://167.172.73.163:5002',
 
   //endpoint
   login: {
