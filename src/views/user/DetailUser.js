@@ -14,24 +14,6 @@ import {
 import axios from 'axios'
 import API from '../../API'
 import { useParams } from 'react-router-dom'
-// {
-//   "data": {
-//     "id": 1,
-//     "name": "Gio",
-//     "age": 24,
-//     "password": "$2a$14$p3dv4FoyGcuyd1KnPhaYWeHRp/rnfeltgxSrrvndCQ72kRC7Cjj42",
-//     "risk_profiles": [
-//       {
-//         "userid": 1,
-//         "mm_percent": 6,
-//         "bond_percent": 21.5,
-//         "stock_percent": 72.5,
-//         "total_percent": 100
-//       }
-//     ]
-//   },
-//   "message": "Data user berhasil didapatkan"
-// }
 
 const DetailUser = () => {
   const { id } = useParams()
